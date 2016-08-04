@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="icon">messagebox_warning.png</file>
+        <file alias="updates">folder_updates.png</file>
+        <file alias="add">edit_add.png</file>
+        <file alias="remove">edit_remove.png</file>
+    </qresource>
+</RCC>
