@@ -10,20 +10,20 @@ TARGET = Notifier
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        widget.cpp
+SOURCES += src/main.cpp\
+        src/widget.cpp
 
-HEADERS  += widget.h
+HEADERS  += src/widget.h
 
-FORMS    += widget.ui
+FORMS    += ui/widget.ui
 
 RESOURCES += \
-    icons.qrc
+    res/icons.qrc
 
-TRANSLATIONS += notifier.ts
+TRANSLATIONS += i18n/notifier.ts
 
 OTHER_FILES += \
-    notifier.ts \
-    notifier.rc
+    i18n/notifier.ts \
+    res/notifier.rc
 
-RC_FILE += notifier.rc
+RC_FILE += res/notifier.rc
